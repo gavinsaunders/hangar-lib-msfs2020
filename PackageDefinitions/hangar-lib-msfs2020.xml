@@ -1,0 +1,31 @@
+<AssetPackage Name="hangar-lib-msfs2020" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title/>
+		<Manufacturer/>
+		<Creator/>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\hangar-lib-msfs2020\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\hangar-lib-msfs2020\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="modellib">
+			<Type>ArtProj</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\modelLib\</AssetDir>
+			<OutputDir>scenery\hangar-lib-msfs2020\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
