@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+
+	<ModelInfo guid="{1490a10a-de5a-4bb9-cf90-676744a3c8ee}" version="1.1">
+		<LODS>
+			<LOD ModelFile="hangar_green_LOD00.gltf"/>
+		</LODS>
+	</ModelInfo>
