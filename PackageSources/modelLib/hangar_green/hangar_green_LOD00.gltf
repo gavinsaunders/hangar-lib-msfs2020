@@ -125,11 +125,7 @@
                     ]
                 }
             },
-            "name" : "Scene.Layout.Helper",
-            "nodes" : [
-                89,
-                90
-            ]
+            "name" : "Scene.Layout.Helper"
         },
         {
             "extras" : {
@@ -158,11 +154,7 @@
                 "lat" : -27.206549644470215,
                 "lon" : 153.07166290283203
             },
-            "name" : "YRED.Reference.Scene",
-            "nodes" : [
-                91,
-                92
-            ]
+            "name" : "YRED.Reference.Scene"
         }
     ],
     "nodes" : [
@@ -1903,108 +1895,6 @@
                 -3.841586112976074,
                 5.2898125648498535,
                 -5.58592414855957
-            ]
-        },
-        {
-            "extras" : {},
-            "mesh" : 78,
-            "name" : "LightBulb",
-            "rotation" : [
-                0.6727825999259949,
-                0.21763192117214203,
-                0.6727826595306396,
-                0.21763186156749725
-            ],
-            "translation" : [
-                -5.676639556884766,
-                6.186056137084961,
-                0.6354271173477173
-            ]
-        },
-        {
-            "extensions" : {
-                "ASOBO_macro_light" : {
-                    "color" : [
-                        1,
-                        0.9749300479888916,
-                        0.5415155291557312
-                    ],
-                    "intensity" : 10,
-                    "cone_angle" : 60.000001669652114,
-                    "has_simmetry" : false,
-                    "flash_frequency" : 0,
-                    "flash_duration" : 0,
-                    "flash_phase" : 0,
-                    "rotation_speed" : 0,
-                    "day_night_cycle" : true
-                }
-            },
-            "extras" : {
-                "msfs_light_day_night_cycle" : 1,
-                "msfs_light_has_symmetry" : 0
-            },
-            "name" : "Spot",
-            "rotation" : [
-                0.3414386510848999,
-                0.3414387106895447,
-                -0.6192088723182678,
-                0.6192089319229126
-            ],
-            "translation" : [
-                -5.676639556884766,
-                6.027127742767334,
-                0.7494451999664307
-            ]
-        },
-        {
-            "extras" : {},
-            "mesh" : 78,
-            "name" : "LightBulb",
-            "rotation" : [
-                0.6727825999259949,
-                0.21763192117214203,
-                0.6727826595306396,
-                0.21763186156749725
-            ],
-            "translation" : [
-                -5.676639556884766,
-                6.186056137084961,
-                0.6354271173477173
-            ]
-        },
-        {
-            "extensions" : {
-                "ASOBO_macro_light" : {
-                    "color" : [
-                        1,
-                        0.9749300479888916,
-                        0.5415155291557312
-                    ],
-                    "intensity" : 10,
-                    "cone_angle" : 60.000001669652114,
-                    "has_simmetry" : false,
-                    "flash_frequency" : 0,
-                    "flash_duration" : 0,
-                    "flash_phase" : 0,
-                    "rotation_speed" : 0,
-                    "day_night_cycle" : true
-                }
-            },
-            "extras" : {
-                "msfs_light_day_night_cycle" : 1,
-                "msfs_light_has_symmetry" : 0
-            },
-            "name" : "Spot",
-            "rotation" : [
-                0.3414386510848999,
-                0.3414387106895447,
-                -0.6192088723182678,
-                0.6192089319229126
-            ],
-            "translation" : [
-                -5.676639556884766,
-                6.027127742767334,
-                0.7494451999664307
             ]
         },
         {
