@@ -2858,7 +2858,7 @@
                 "msfs_show_uv_clamp" : 1,
                 "msfs_show_alpha_cutoff" : 0,
                 "msfs_show_blend_threshold" : 1,
-                "msfs_color_alpha_mix" : 0.7300000190734863
+                "msfs_color_alpha_mix" : 0.5
             },
             "name" : "roof_skylight",
             "occlusionTexture" : {
