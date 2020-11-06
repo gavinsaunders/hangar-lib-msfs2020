@@ -2858,7 +2858,12 @@
                 "msfs_show_uv_clamp" : 1,
                 "msfs_show_alpha_cutoff" : 0,
                 "msfs_show_blend_threshold" : 1,
-                "msfs_color_alpha_mix" : 0.5
+                "msfs_color_alpha_mix" : 0.4000000059604645,
+                "msfs_show_wiper_mask" : 0,
+                "msfs_double_sided" : 0,
+                "msfs_no_cast_shadow" : 0,
+                "msfs_fresnel_opacity_bias" : 1,
+                "msfs_fresnel_factor" : 1
             },
             "name" : "roof_skylight",
             "occlusionTexture" : {
@@ -2866,10 +2871,12 @@
                 "texCoord" : 0
             },
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 28,
-                    "texCoord" : 0
-                },
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.4000000059604645
+                ],
                 "metallicRoughnessTexture" : {
                     "index" : 27,
                     "texCoord" : 0
@@ -2925,16 +2932,16 @@
             },
             "name" : "roof_steel_edges",
             "occlusionTexture" : {
-                "index" : 29,
+                "index" : 28,
                 "texCoord" : 0
             },
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
-                    "index" : 30,
+                    "index" : 29,
                     "texCoord" : 0
                 },
                 "metallicRoughnessTexture" : {
-                    "index" : 29,
+                    "index" : 28,
                     "texCoord" : 0
                 }
             }
@@ -2988,16 +2995,16 @@
             },
             "name" : "roof_steel_plates",
             "occlusionTexture" : {
-                "index" : 31,
+                "index" : 30,
                 "texCoord" : 0
             },
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
-                    "index" : 32,
+                    "index" : 31,
                     "texCoord" : 0
                 },
                 "metallicRoughnessTexture" : {
-                    "index" : 31,
+                    "index" : 30,
                     "texCoord" : 0
                 }
             }
@@ -3075,16 +3082,16 @@
             },
             "name" : "cover",
             "occlusionTexture" : {
-                "index" : 33,
+                "index" : 32,
                 "texCoord" : 0
             },
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
-                    "index" : 34,
+                    "index" : 33,
                     "texCoord" : 0
                 },
                 "metallicRoughnessTexture" : {
-                    "index" : 33,
+                    "index" : 32,
                     "texCoord" : 0
                 }
             }
@@ -3138,16 +3145,16 @@
             },
             "name" : "reflective",
             "occlusionTexture" : {
-                "index" : 35,
+                "index" : 34,
                 "texCoord" : 0
             },
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
-                    "index" : 36,
+                    "index" : 35,
                     "texCoord" : 0
                 },
                 "metallicRoughnessTexture" : {
-                    "index" : 35,
+                    "index" : 34,
                     "texCoord" : 0
                 }
             }
@@ -3206,16 +3213,16 @@
             },
             "name" : "chain",
             "occlusionTexture" : {
-                "index" : 37,
+                "index" : 36,
                 "texCoord" : 0
             },
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
-                    "index" : 38,
+                    "index" : 37,
                     "texCoord" : 0
                 },
                 "metallicRoughnessTexture" : {
-                    "index" : 37,
+                    "index" : 36,
                     "texCoord" : 0
                 }
             }
@@ -3274,16 +3281,16 @@
             },
             "name" : "aluminium",
             "occlusionTexture" : {
-                "index" : 39,
+                "index" : 38,
                 "texCoord" : 0
             },
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
-                    "index" : 40,
+                    "index" : 39,
                     "texCoord" : 0
                 },
                 "metallicRoughnessTexture" : {
-                    "index" : 39,
+                    "index" : 38,
                     "texCoord" : 0
                 }
             }
@@ -3295,7 +3302,7 @@
                 40.46007537841797
             ],
             "emissiveTexture" : {
-                "index" : 41,
+                "index" : 40,
                 "texCoord" : 0
             },
             "extras" : {
@@ -3350,16 +3357,16 @@
             },
             "name" : "light",
             "occlusionTexture" : {
-                "index" : 42,
+                "index" : 41,
                 "texCoord" : 0
             },
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
-                    "index" : 43,
+                    "index" : 42,
                     "texCoord" : 0
                 },
                 "metallicRoughnessTexture" : {
-                    "index" : 42,
+                    "index" : 41,
                     "texCoord" : 0
                 }
             }
@@ -3418,16 +3425,16 @@
             },
             "name" : "wire",
             "occlusionTexture" : {
-                "index" : 44,
+                "index" : 43,
                 "texCoord" : 0
             },
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
-                    "index" : 45,
+                    "index" : 44,
                     "texCoord" : 0
                 },
                 "metallicRoughnessTexture" : {
-                    "index" : 44,
+                    "index" : 43,
                     "texCoord" : 0
                 }
             }
@@ -3492,20 +3499,20 @@
             },
             "name" : "light_silver_jacket",
             "normalTexture" : {
-                "index" : 46,
+                "index" : 45,
                 "texCoord" : 0
             },
             "occlusionTexture" : {
-                "index" : 47,
+                "index" : 46,
                 "texCoord" : 0
             },
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
-                    "index" : 48,
+                    "index" : 47,
                     "texCoord" : 0
                 },
                 "metallicRoughnessTexture" : {
-                    "index" : 47,
+                    "index" : 46,
                     "texCoord" : 0
                 }
             }
@@ -3517,7 +3524,7 @@
                 1
             ],
             "emissiveTexture" : {
-                "index" : 49,
+                "index" : 48,
                 "texCoord" : 0
             },
             "extensions" : {
@@ -3577,20 +3584,20 @@
             },
             "name" : "emissive",
             "normalTexture" : {
-                "index" : 50,
+                "index" : 49,
                 "texCoord" : 0
             },
             "occlusionTexture" : {
-                "index" : 51,
+                "index" : 50,
                 "texCoord" : 0
             },
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
-                    "index" : 52,
+                    "index" : 51,
                     "texCoord" : 0
                 },
                 "metallicRoughnessTexture" : {
-                    "index" : 51,
+                    "index" : 50,
                     "texCoord" : 0
                 }
             }
@@ -3653,20 +3660,20 @@
             },
             "name" : "black_plastic",
             "normalTexture" : {
-                "index" : 53,
+                "index" : 52,
                 "texCoord" : 0
             },
             "occlusionTexture" : {
-                "index" : 54,
+                "index" : 53,
                 "texCoord" : 0
             },
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
-                    "index" : 55,
+                    "index" : 54,
                     "texCoord" : 0
                 },
                 "metallicRoughnessTexture" : {
-                    "index" : 54,
+                    "index" : 53,
                     "texCoord" : 0
                 }
             }
@@ -6153,19 +6160,16 @@
             "source" : 50
         },
         {
-            "source" : 51
+            "source" : 48
         },
         {
-            "source" : 49
+            "source" : 51
         },
         {
             "source" : 52
         },
         {
             "source" : 53
-        },
-        {
-            "source" : 54
         }
     ],
     "images" : [
@@ -6308,11 +6312,6 @@
             "mimeType" : "image/png",
             "name" : "hangar_green_model_lowpoly_roof_skylight_comp",
             "uri" : "hangar_green_model_lowpoly_roof_skylight_comp.png"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "hangar_green_model_lowpoly_roof_skylight_albedo",
-            "uri" : "hangar_green_model_lowpoly_roof_skylight_albedo.png"
         },
         {
             "mimeType" : "image/png",
